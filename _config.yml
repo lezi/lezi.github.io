@@ -2,14 +2,14 @@ safe:        false
 baseurl:     /
 url: http://localhost:4000
 
-name: Zeno Rocha
-description: A front-end engineer who lives in Rio and works for an awesome company based in LA :)
-url: http://zenorocha.com
-domain: zenorocha.com
+name: Osvaldo Júnior
+description: A passionate programmer living in Luanda
+url: http://osvaldo.me
+domain: osvaldo.me
 commentlinks: true
-twitter-username: zenorocha
-feedburnerurl: http://feeds.feedburner.com/zenorocha
-google-analytics-tracking-id: UA-4114546-2
+twitter-username: mwanalezi
+feedburnerurl: http://feeds.feedburner.com/mwanalezi
+google-analytics-tracking-id: UA-43308679-1
 
 source:      .
 destination: ./_site
@@ -18,8 +18,8 @@ paginate_path: 'blog/page:num'
 
 future:      true
 lsi:         false
-pygments:    false
-markdown:    maruku
+#pygments:    false
+markdown:    kramdown
 permalink:   /:title/
 paginate: 5
 
@@ -49,3 +49,6 @@ kramdown:
     coderay_css: style
 
 excerpt_separator: "<!-- more -->"
+
+sass:
+    sass_dir: assets/_sass
