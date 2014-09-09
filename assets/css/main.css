@@ -227,9 +227,9 @@ sup a[rel="footnote"] {
 	margin-bottom: 0;
 }
 
-.home .posttitle {
+/*.home .posttitle {
 	display: none;
-}
+}*/
 
 .home #content p:first-of-type {
 	margin-top: 0;
@@ -464,6 +464,11 @@ h1.sitetitle a, h2.sitetitle a {
 	letter-spacing: 0.1em;
 }
 
+.home .post .posttitle {
+    text-align: left;
+	max-width: 100%;
+}
+
 /*.post .posttitle:before {
 	content: '\00A7';
 	display: block;
@@ -491,6 +496,11 @@ ul#posts li.post {
 	border-bottom: 4px double #dadada;
 }
 
+.home ul#posts li.post {
+    border-bottom: 3px double #dadada;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
 p.pagination .newer {
 	float: left;
 }
@@ -891,7 +901,7 @@ figcaption {
 		margin: 0 auto;
 		padding: 0 0 80px 0;
 		width: 80%;
-		max-width: 640px;
+	/*	max-width: 640px;*/
 	}
 
 	ul#pagenav li {
