@@ -10,6 +10,9 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 
   <!-- Facebook -->
+  {% if site.facebook_appid %}
+    <meta property="fb:app_id" content="{{ site.facebook_appid }}" />
+  {% endif %}
   <meta property="og:title" content="{% if page.title %}{{ page.title }} &mdash;{% endif %} {{ site.name }}"/>
   <meta property="og:site_name" content="Osvaldo Júnior"/>
   <meta property="og:url" content="{{ site.url }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}"/>
