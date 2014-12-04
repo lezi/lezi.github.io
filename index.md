@@ -3,10 +3,10 @@ layout: page
 class: home
 ---
 
-A blog about *programming* and other tech stuffs
+A blog about *programming*  and other tech stuffs
 
 
-    
+
 # Writing
 
    <ul id="posts">

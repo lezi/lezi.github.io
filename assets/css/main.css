@@ -28,7 +28,7 @@
 }
 
 body {
-	font-family: 'Droid Serif', Georgia, serif;
+	font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
@@ -406,7 +406,9 @@ ul#pagenav li:last-child a {
 h1, h2, h3, h4, h5, h6 {
 	color: #000;
 }
-
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster Two', cursive;
+}
 h1.sitetitle, h2.sitetitle {
 	margin-left: 20px;
 }
@@ -417,7 +419,7 @@ h1.sitetitle, h2.sitetitle {
 
 .sitetitle {
 	font-size: 36px;
-	font-family: 'ChunkFive', Helvetica, sans-serif;
+	font-family: 'Lobster Two', Helvetica, sans-serif;
 	text-transform: lowercase;
 	font-weight: 100;
 	display: block;
