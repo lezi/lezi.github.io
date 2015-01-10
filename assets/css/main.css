@@ -1176,3 +1176,7 @@ table tbody tr.info > td {
 pre {
 	font-size: 15px !important;
 }
+
+.posttitle {
+  font-family: 'Yanone Kaffeesatz', Georgia, sans-serif;
+}
