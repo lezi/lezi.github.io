@@ -17,7 +17,7 @@ A blog about *programming*  and other tech stuffs
         <h2 class="posttitle"><a href="{{ page.url }}" class="articletitle">{{ page.title }}</a></h2>
     {% endif %}
     {% if post.title %}
-        <h2 class="posttitle"><a href="{{ post.url }}" class="articletitle">{{ post.title }}</a></h2>
+        <h2 class="posttitle">{{ post.date | date:"%d/%m/%Y" }}-<a href="{{ post.url }}" class="articletitle">{{ post.title }}</a></h2>
     {% endif %}
     </li>
   {% endunless %}
