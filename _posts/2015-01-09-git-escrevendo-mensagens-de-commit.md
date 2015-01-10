@@ -5,11 +5,11 @@ published: true
 date: 2015-01-09 14:58:00
 title: Git-Escrevendo mensagens de commit excelentes.
 link:
-excerpt: As mensagens de commmit servem como uma explicação sobre quais alterações foram feitas num determinado commit e as suas motivações. Escrever uma boa mensagem facilita futuras revisões do código e a colaboração com outros desenvolvedores.
+excerpt: As mensagens de commit servem como uma explicação sobre quais alterações foram feitas num determinado commit e as suas motivações. Escrever uma boa mensagem facilita futuras revisões do código e a colaboração com outros desenvolvedores.
 category: dev
 ---
 
-As mensagens de commmit servem como uma explicação sobre quais alterações foram feitas num determinado commit e as suas motivações. Escrever uma boa mensagem facilita futuras revisões do código e a colaboração com outros desenvolvedores.
+As mensagens de commit servem como uma explicação sobre quais alterações foram feitas num determinado commit e as suas motivações. Escrever uma boa mensagem facilita futuras revisões do código e a colaboração com outros desenvolvedores.
 
 Existem convenções estabelicidas sobre como escrever mensagens de commit idiomáticas e excelentes. Abaixo segue-se um template criado por [Tim Pope](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html):
 
